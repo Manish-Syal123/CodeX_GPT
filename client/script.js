@@ -70,7 +70,7 @@ const handleSubmit = async (e) => {
 
   form.reset();
 
-  // bot's chatStripe
+  // bots chatStripe
   const uniqueId = generateUniqueId();
   chatContainer.innerHTML += chatStripe(true, "", uniqueId);
 
